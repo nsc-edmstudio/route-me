@@ -73,7 +73,7 @@
 	enableZoom = YES;
 	enableRotate = NO;
 	decelerationFactor = kDefaultDecelerationFactor;
-	deceleration = NO;
+	deceleration = YES;
 	
 	//	[self recalculateImageSet];
 	
@@ -547,10 +547,11 @@
 			if (nextZoomFactor != 0)
 				[self zoomByFactor:nextZoomFactor near:[touch locationInView:self] animated:YES];
 		}
-	} else if (lastTouches == 1 && touch.tapCount != 1) {
-		// deceleration
+	} else if (lastTouches == 1 && touch.tapCount == 1) {
+        // deceleration
 		if(deceleration && enableDragging)
 		{
+            
 			CGPoint prevLocation = [touch previousLocationInView:self];
 			CGPoint currLocation = [touch locationInView:self];
 			CGSize touchDelta = CGSizeMake(currLocation.x - prevLocation.x, currLocation.y - prevLocation.y);

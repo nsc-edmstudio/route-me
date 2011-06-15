@@ -29,9 +29,12 @@
 #define _RMLATLONG_H_
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IPHONE
-#import <CoreLocation/CoreLocation.h>
 #import "RMGlobalConstants.h"
+
+#if 1
+//TARGET_OS_IPHONE
+#import <CoreLocation/CoreLocation.h>
+//#import "RMGlobalConstants.h"
 
 /*! \struct RMSphericalTrapezium
  

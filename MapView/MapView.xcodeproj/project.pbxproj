@@ -117,6 +117,9 @@
 		4474211C1302B60A004D6E8A /* RMWMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474211A1302B60A004D6E8A /* RMWMS.m */; };
 		46B1C067117653930062018A /* GTMNSNumber+64Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1C066117653930062018A /* GTMNSNumber+64Bit.m */; };
 		46B1C075117653F10062018A /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B1C074117653F10062018A /* GTMObjC2Runtime.m */; };
+		787EF09913A7BB67002B21A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787EF09813A7BB67002B21A3 /* UIKit.framework */; };
+		787EF11913A7C054002B21A3 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787EF11813A7C054002B21A3 /* ApplicationServices.framework */; };
+		787EF11B13A7C05F002B21A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787EF11A13A7C05F002B21A3 /* CoreGraphics.framework */; };
 		96492C400FA8AD3400EBA6D2 /* RMGlobalConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 96492C3F0FA8AD3400EBA6D2 /* RMGlobalConstants.h */; };
 		96FE8E360F72D01B00A11CF0 /* RMYahooMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FE8E340F72D01B00A11CF0 /* RMYahooMapSource.h */; };
 		96FE8E370F72D01B00A11CF0 /* RMYahooMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FE8E350F72D01B00A11CF0 /* RMYahooMapSource.m */; };
@@ -170,9 +173,7 @@
 		B8C9744A0E8A19B2007D16AD /* RMProjection.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64E40E80E73F001663B6 /* RMProjection.m */; };
 		B8C9744C0E8A19B2007D16AD /* RMAbstractMercatorWebSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A967510E8412930031BA75 /* RMAbstractMercatorWebSource.m */; };
 		B8C974500E8A19B2007D16AD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83E65590E80E7EB001663B6 /* CoreFoundation.framework */; };
-		B8C974510E8A19B2007D16AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		B8C974520E8A19B2007D16AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83E65630E80E81C001663B6 /* CoreLocation.framework */; };
-		B8C974530E8A19B2007D16AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		B8C974540E8A19B2007D16AD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83E65680E80E830001663B6 /* QuartzCore.framework */; };
 		B8C9745C0E8A19E5007D16AD /* RMTileImageSet.h in Headers */ = {isa = PBXBuildFile; fileRef = B83E64E00E80E73F001663B6 /* RMTileImageSet.h */; };
 		B8C9745D0E8A19E6007D16AD /* RMTileImageSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E64E10E80E73F001663B6 /* RMTileImageSet.m */; };
@@ -299,6 +300,14 @@
 		46B1C066117653930062018A /* GTMNSNumber+64Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSNumber+64Bit.m"; path = "GTM/GTMNSNumber+64Bit.m"; sourceTree = "<group>"; };
 		46B1C073117653F10062018A /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMObjC2Runtime.h; path = GTM/GTMObjC2Runtime.h; sourceTree = "<group>"; };
 		46B1C074117653F10062018A /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMObjC2Runtime.m; path = GTM/GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		787EF09813A7BB67002B21A3 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		787EF11813A7C054002B21A3 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		787EF11A13A7C05F002B21A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = ../../../../../../../../../../../Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework; sourceTree = "<group>"; };
+		787EF13413A7C3D0002B21A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		787EF13713A7C3D0002B21A3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		787EF13813A7C3D0002B21A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		787EF13913A7C3D0002B21A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		787EF14413A7C413002B21A3 /* libProj4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libProj4.a; path = "/Users/pmifek/Library/Developer/Xcode/DerivedData/MapView-eppxfdivrrgjfsdvnwcisldiadph/Build/Products/Debug-iphoneos/libProj4.a"; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96492C3F0FA8AD3400EBA6D2 /* RMGlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMGlobalConstants.h; sourceTree = "<group>"; };
 		966504690F6869810036562A /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
@@ -431,13 +440,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787EF11913A7C054002B21A3 /* ApplicationServices.framework in Frameworks */,
+				787EF09913A7BB67002B21A3 /* UIKit.framework in Frameworks */,
 				B8C974500E8A19B2007D16AD /* CoreFoundation.framework in Frameworks */,
-				B8C974510E8A19B2007D16AD /* CoreGraphics.framework in Frameworks */,
 				B8C974520E8A19B2007D16AD /* CoreLocation.framework in Frameworks */,
-				B8C974530E8A19B2007D16AD /* UIKit.framework in Frameworks */,
 				B8C974540E8A19B2007D16AD /* QuartzCore.framework in Frameworks */,
 				B8474BC10EB4019A006A0BC1 /* libsqlite3.dylib in Frameworks */,
 				3849889C0F6F758100496293 /* libProj4.a in Frameworks */,
+				787EF11B13A7C05F002B21A3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,11 +496,15 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				787EF14413A7C413002B21A3 /* libProj4.a */,
+				787EF11813A7C054002B21A3 /* ApplicationServices.framework */,
+				787EF09813A7BB67002B21A3 /* UIKit.framework */,
 				2BF0E4540F73119C0095A926 /* Documentation */,
 				2B246B230F8AE20300A7D55D /* Testing */,
 				B8C9740D0E8A196E007D16AD /* Map */,
 				B83E67570E80F3FB001663B6 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				787EF11A13A7C05F002B21A3 /* CoreGraphics.framework */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				2B2BD42E0F79A9A500B8B9A7 /* Static Library Build */,
 				32CA4F630368D1EE00C91783 /* MapView_Prefix.pch */,
@@ -509,6 +523,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				787EF13413A7C3D0002B21A3 /* Cocoa.framework */,
+				787EF13613A7C3D0002B21A3 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -586,6 +602,16 @@
 				4474211A1302B60A004D6E8A /* RMWMS.m */,
 			);
 			name = WMS;
+			sourceTree = "<group>";
+		};
+		787EF13613A7C3D0002B21A3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787EF13713A7C3D0002B21A3 /* AppKit.framework */,
+				787EF13813A7C3D0002B21A3 /* CoreData.framework */,
+				787EF13913A7C3D0002B21A3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		B83E64B80E80E73F001663B6 /* Renderers */ = {
@@ -1389,12 +1415,19 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MapView_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = ../Proj4;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				PRODUCT_NAME = MapView;
@@ -1408,11 +1441,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Frameworks\"",
+				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MapView_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "NS_BLOCK_ASSERTIONS=1";
 				HEADER_SEARCH_PATHS = ../Proj4;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				PRODUCT_NAME = MapView;
@@ -1423,7 +1463,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_FAST_MATH = YES;
@@ -1440,7 +1480,7 @@
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.6;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1448,7 +1488,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_FAST_MATH = YES;
@@ -1459,7 +1499,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.6;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
